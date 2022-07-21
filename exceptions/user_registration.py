@@ -1,4 +1,4 @@
-class EmployeeRegisterError(Exception):
+class UserRegisterError(Exception):
     def __init__(self):
         super().__init__()
         self.messages = []
